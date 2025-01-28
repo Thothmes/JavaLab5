@@ -1,6 +1,5 @@
 public class Fraction implements FractionInterface {
 
-
     private int numerator;
     private int denominator;
 
@@ -17,8 +16,9 @@ public class Fraction implements FractionInterface {
         return denominator;
     }
 
-    public static double getDecValue(int numerator, int denominator){
-        System.out.println(numerator / denominator);
+    @Override
+    public double getDecValue(Fraction fractionex){
+        System.out.println(fractionex.numerator / fractionex.denominator);
         return 0;
     }
 

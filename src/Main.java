@@ -217,7 +217,7 @@ public class Main {
 
         System.out.println("Дробь: " + f1);
         System.out.println("Дробь: " + f3);
-        System.out.println(Fraction.getDecValue(f1.getNumerator(), f1.getDenominator()));
+        System.out.println("Десятичный вид дроби 1" + f1.getDecValue(f1));
         System.out.println(Fraction.areEqual(f1, f2));
         System.out.println(Fraction.generateHashCode(f1));
     }

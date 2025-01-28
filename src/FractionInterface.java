@@ -1,7 +1,5 @@
 public interface FractionInterface {
-    static double getDecValue(int numerator, int denominator) {
-        return 0;
-    }
+    double getDecValue(Fraction fractionex);
     void setNumerator(int numerator);
     void setDenominator(int denominator);
 }
